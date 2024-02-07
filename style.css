@@ -136,6 +136,10 @@ body {
   z-index: -1;
 }
 
+.my-audio{
+  display: none;
+}
+
 /* To move the envelope up and down */
 @keyframes up {
   0%,
