@@ -24,7 +24,7 @@
     </div>
     <div class="shadow"></div>
     <div>
-        <audio id="my-player" controls >
+        <audio id="my-player" controls autoplay>
             <source src="public/Roberto-Carlos-Sereia.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
@@ -39,7 +39,7 @@
       //audioPlayer.play();
 
       // Ocultar controles do áudio
-      //audioPlayer.controls = false;
+      audioPlayer.controls = false;
 
       // Para pausar a reprodução, você pode chamar: audioPlayer.pause();
     });
