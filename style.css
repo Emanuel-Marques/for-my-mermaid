@@ -157,3 +157,10 @@ body {
     transform: scaleX(0.85);
   }
 }
+
+@media only screen and (max-width: 600px){
+  .shadow {
+    left: 80px;
+    bottom: 100px;
+  }
+}
