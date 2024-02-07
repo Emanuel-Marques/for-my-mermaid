@@ -5,7 +5,7 @@
     <!-- coding by helpme_coder -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Mermaid | Aurora</title>
+    <title>For My Mermaid t| Aurora</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
@@ -24,7 +24,7 @@
     </div>
     <div class="shadow"></div>
     <div>
-        <audio id="my-player" controls autoplay>
+        <audio id="my-player" controls>
             <source src="public/Roberto-Carlos-Sereia.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
@@ -37,7 +37,7 @@
 
       // Iniciar a reprodução automática
       //audioPlayer.play();
-
+      audioPlayer.autoplay = true;
       // Ocultar controles do áudio
       audioPlayer.controls = false;
 
