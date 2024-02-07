@@ -140,6 +140,17 @@ body {
   display: none;
 }
 
+.spotify{
+  position: absolute;
+  width: 330px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 250px;
+  left: 650px;
+  z-index: -1;
+}
+
 /* To move the envelope up and down */
 @keyframes up {
   0%,
@@ -166,5 +177,9 @@ body {
   .shadow {
     left: 80px;
     bottom: 100px;
+  }
+  .spotify{
+    left: 80px;
+    bottom: 10px;
   }
 }
